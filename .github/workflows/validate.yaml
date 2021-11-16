@@ -1,3 +1,4 @@
+name: Validate TF
 on: [push]
 
 jobs:

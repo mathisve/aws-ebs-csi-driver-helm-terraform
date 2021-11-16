@@ -1,3 +1,5 @@
+![validate](https://github.com/mathisve/aws-ebs-csi-driver-helm-terraform/actions/workflows/validate.yaml/badge.svg)
+
 # aws-ebs-csi-driver-helm-terraform
 
 ## Idempotently install the aws-ebs-csi-driver using Helm and Terraform
