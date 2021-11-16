@@ -1,0 +1,7 @@
+# helm show values aws-ebs-csi-driver/aws-ebs-csi-driver > ebs-csi_values.yaml
+# helm template aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --values ebs-csi_values.yaml > template.yaml
+
+controller:
+  serviceAccount:
+    create: true
+    name: ebs-csi-controller-sa
